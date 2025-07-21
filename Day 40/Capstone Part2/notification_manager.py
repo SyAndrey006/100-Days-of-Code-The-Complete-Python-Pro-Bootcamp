@@ -1,13 +1,13 @@
 import smtplib
 from twilio.rest import Client
 
-Twilio_Account_SID = "AC5c73a07e65c32ea6da3b23a0602e12f4"
-Twilio_Auth_Token = "31958c381a8ce9c914b94918a94f2bb7"
-Twilio_Phone_Number = "+15075744375"
-my_number = "+390969638363"
+Twilio_Account_SID = ""
+Twilio_Auth_Token = ""
+Twilio_Phone_Number = ""
+my_number = ""
 smtp_address = "smtp.gmail.com"
-email_address = "synelnyk.andrey.1234567890@gmail.com"
-email_password = "10293847"
+email_address = ""
+email_password = ""
 
 class NotificationManager:
 
