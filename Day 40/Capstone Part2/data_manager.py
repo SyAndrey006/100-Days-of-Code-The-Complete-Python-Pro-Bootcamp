@@ -1,8 +1,8 @@
 import requests
 
-sheety_endpoint = "https://api.sheety.co/d60c84605824c2934f2f0b310fd6024f/flightDeals/prices"
-sheety_users_endpoint = "https://api.sheety.co/d60c84605824c2934f2f0b310fd6024f/flightDeals/users"
-sheety_token = "Andrew"
+sheety_endpoint = ""
+sheety_users_endpoint = ""
+sheety_token = ""
 sheety_name = "price"
 
 class DataManager:
