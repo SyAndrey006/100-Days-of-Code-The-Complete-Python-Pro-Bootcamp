@@ -2,9 +2,9 @@ import requests
 from twilio.rest import Client
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
-api_key = "b09bd2e3e774dd208908c8d937c162f8"
-account_sid = "AC5c73a07e65c32ea6da3b23a0602e12f4"
-auth_token = "31958c381a8ce9c914b94918a94f2bb7"
+api_key = ""
+account_sid = ""
+auth_token = ""
 
 
 weather_params = {
