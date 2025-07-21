@@ -4,8 +4,8 @@ IATA_endpoint = "https://test.api.amadeus.com/v1/reference-data/locations/cities
 FLIGHT_endpoint = "https://test.api.amadeus.com/v2/shopping/flight-offers"
 TOKEN_ENDPOINT = "https://test.api.amadeus.com/v1/security/oauth2/token"
 
-amadeus_api_key = "0PUcRAVg4WvFfgpq7ol3LT8ywS8BmuWC"
-amadeus_api_secret = "Jk45psEf7HQGqbve"
+amadeus_api_key = ""
+amadeus_api_secret = ""
 
 class FlightSearch:
 
