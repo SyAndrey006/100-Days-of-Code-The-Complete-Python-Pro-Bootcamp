@@ -4,8 +4,8 @@ from datetime import datetime
 
 # APP_ID = os.environ["ENV_nutritionix_ID"]
 # API_KEY = os.environ["ENV_nutritionix_API"]
-APP_ID = "497ebb57"
-API_KEY = "bda6dd3110d4e1b4baab96e86684ab47"
+APP_ID = ""
+API_KEY = ""
 
 GENDER = "male"
 WEIGHT_KG = 70
