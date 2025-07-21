@@ -36,9 +36,9 @@
 # last_name = driver.find_element(By.NAME, value="lName")
 # email = driver.find_element(By.NAME, value="email")
 #
-# first_name.send_keys("Andrew")
-# last_name.send_keys("Synelnyk")
-# email.send_keys("synelnyk.andrew@gmail.com")
+# first_name.send_keys("")
+# last_name.send_keys("")
+# email.send_keys("")
 #
 # submit = driver.find_element(By.CSS_SELECTOR, value="form button")
 # submit.click()
