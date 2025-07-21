@@ -6,8 +6,8 @@ posts = requests.get("https://api.npoint.io/b9d21b4c923db38e247c").json()
 
 app = Flask(__name__)
 
-my_email = "andrew.100daysofcode@gmail.com"
-my_password = "udlc znvi edws qoox"
+my_email = ""
+my_password = ""
 
 @app.route('/')
 def home():
