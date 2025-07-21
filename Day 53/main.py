@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import time
 
 URL = "https://appbrewery.github.io/Zillow-Clone/"
-GOOGLE_FORMS_LINK = "https://docs.google.com/forms/d/e/1FAIpQLScw5j36ZuNqwVuU-y3DQz6pcoUeXbxceTfVLodcTEXiERmjmw/viewform?usp=dialog"
+GOOGLE_FORMS_LINK = ""
 
 header = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36",
