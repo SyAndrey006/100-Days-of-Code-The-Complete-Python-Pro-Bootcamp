@@ -47,8 +47,8 @@ Buy_Price = 1400
 # app_password = os.environ.get("APP_PASSWORD ")
 
 smtp_address = "smtp.gmail.com"
-email = "andrewsynelnyk@gmail.com"
-app_password = "psmv fcir ujab sjbz"
+email = ""
+app_password = ""
 
 if float_price <= Buy_Price:
     message = f"{title} is on sale for {price}!"
