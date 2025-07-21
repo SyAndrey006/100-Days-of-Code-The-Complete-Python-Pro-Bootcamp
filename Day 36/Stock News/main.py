@@ -1,15 +1,15 @@
 import requests
 from twilio.rest import Client
 
-news_api_key = "5eb05ff5fe404cecb426c4e7de55975b"
+news_api_key = ""
 
-twilio_account_sid = "AC5c73a07e65c32ea6da3b23a0602e12f4"
-twilio_auth_token = "31958c381a8ce9c914b94918a94f2bb7"
+twilio_account_sid = ""
+twilio_auth_token = ""
 
-stock_api_key = "ZD3POJCV4BCE5Y6C"
+stock_api_key = ""
 
-my_number = "+380969638363"
-twilio_number = "+15075744375"
+my_number = ""
+twilio_number = ""
 
 stock_name = "TSLA"
 company_name = "Tesla Inc"
