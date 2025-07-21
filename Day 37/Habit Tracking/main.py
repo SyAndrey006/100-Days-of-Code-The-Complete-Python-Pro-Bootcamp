@@ -2,12 +2,12 @@ import requests
 from datetime import datetime
 
 pixela_url = "https://pixe.la/v1/users"
-user_name = "andrewsynelnyk"
-token = "vkaskdvalisyu"
+user_name = ""
+token = ""
 
 user_parameters = {
-    "token": "vkaskdvalisyu",
-    "username": "andrewsynelnyk",
+    "token": "",
+    "username": "",
     "agreeTermsOfService": "yes",
     "notMinor": "yes",
 }
