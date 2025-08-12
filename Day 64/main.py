@@ -32,7 +32,6 @@ class Movie(db.Model):
 with app.app_context():
     db.create_all()
 
-
 # new_movie = Movie(
 #     title="Phone Booth",
 #     year=2002,
@@ -56,7 +55,7 @@ class FindForm(FlaskForm):
     title = StringField("Movie Title", validators=[DataRequired()])
     submit = SubmitField("Add Movie")
 
-MOVIE_DB_API_KEY = "da5eb8c9d2f90b50d81195b52b8c8f74"
+MOVIE_DB_API_KEY = " "
 MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
