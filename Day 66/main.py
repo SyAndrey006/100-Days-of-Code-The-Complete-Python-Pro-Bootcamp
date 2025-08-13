@@ -6,16 +6,13 @@ import random
 
 app = Flask(__name__)
 
-# CREATE DB
 class Base(DeclarativeBase):
     pass
 
-# Connect to Database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
 
-# Cafe TABLE Configuration
 class Cafe(db.Model):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(String(250), unique=True, nullable=False)
@@ -108,3 +105,6 @@ def delete_cafe(cafe_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+#set FLASK_APP=main.py
+#python -m flask run
