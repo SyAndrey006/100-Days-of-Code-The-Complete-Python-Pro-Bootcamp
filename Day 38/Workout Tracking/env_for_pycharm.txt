@@ -1,0 +1,4 @@
+ENV_nutritionix_ID=497ebb57
+ENV_nutritionix_API=bda6dd3110d4e1b4baab96e86684ab47
+ENV_shetty_endpoint=
+ENV_shetty_token=
