@@ -1,0 +1,13 @@
+Flask~=2.3.2
+flask_sqlalchemy==3.1.1
+SQLAlchemy~=2.0.42
+prettytable~=3.16.0
+pandas~=2.3.0
+pyperclip~=1.9.0
+requests~=2.32.4
+twilio~=9.6.3
+beautifulsoup4~=4.13.4
+spotipy~=2.25.1
+selenium~=4.33.0
+WTForms~=3.0.1
+Flask-Bootstrap~=3.3.7.1
