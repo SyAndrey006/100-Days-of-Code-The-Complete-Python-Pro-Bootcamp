@@ -66,6 +66,7 @@
                 >Home</a
               >
             </li>
+            <!-- Only show Login/Register if user is logged out. Otherwise show "Log Out" -->
             {% if not current_user.is_authenticated: %}
             <li class="nav-item">
               <a

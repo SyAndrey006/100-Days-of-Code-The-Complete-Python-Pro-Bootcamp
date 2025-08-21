@@ -10799,7 +10799,7 @@ header.masthead .post-heading .meta a {
 }
 
 
-/* Commment Styling */
+/* Comment Styling */
 .commentBox {
   padding:10px;
   border-top:1px dotted #bbb;
@@ -10843,13 +10843,13 @@ header.masthead .post-heading .meta a {
 }
 
 .sub-text {
-  color:#aaa;
-  font-family:verdana;
-  font-size:13px;
+    color:#aaa;
+    font-family:verdana;
+    font-size:13px;
 }
 
 /* Flash Message Styling */
 .flash {
-  color: #ee6f57;
-  text-align: center;
+    color: #ee6f57;
+    text-align: center;
 }
